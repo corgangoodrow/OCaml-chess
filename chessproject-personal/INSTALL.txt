@@ -1,0 +1,13 @@
+Instructions on how to install and build our system:
+
+1. make clean
+2. make build
+3. make test (running test cases)
+4. make play (initalizing chess game - instructions will be printed but follow
+player vs. player on same computer structure. Use commands 'move __,__ 'or 
+  'castle king' or 'castle queen' or 'quit'. Castle king is a king side castle
+  and castle queen is a queen side castle. An example of move works is 
+  'move A2,A3' . Valid input for move is an uppercase letter followed by an 
+  integer number 1-8, uppercase letter followed by an integer number 1-8.)
+5. Game will end when you have reached checkmate state or if you enter the
+command 'quit'.
